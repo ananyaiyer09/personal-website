@@ -1,0 +1,210 @@
+
+
+/* STYLE SECTIONING TAGS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: ##FAFAFF;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+}
+
+.about-me-text {
+  padding: 10%;
+  line-height: 45px;
+  display: block;
+}
+
+#hobbies {
+  padding: 100px;
+  line-height: 48px;
+  margin-top: -90px;
+}
+
+#tech-journey {
+  padding: 100px;
+  line-height: 48px;
+  margin-top: -90px;
+}
+
+.project {
+  padding: 100px;
+  margin-bottom: 100px;
+}
+
+.project-container {
+  background-color: #273469;
+  border-radius: 20px;
+  padding: 30px;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+
+/* STYLE TEXT */
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+#header {
+  font-family: "Lato", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 60px;
+  color: #30343F;
+  margin-bottom: 20px;
+}
+
+#sub-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #30343F;
+  font-size: 30px;
+}
+
+#name {
+  color: #273469;
+  font-weight: 900;
+}
+
+#sub-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+#portfolio-button {
+  background-color: #E4D9FF;
+  color: #30343F;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#portfolio-button:hover {
+  font-weight: 900;
+}
+
+#hobbies-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 50px;
+  color: #273469;
+  margin-bottom: 20px;
+}
+
+#hobbies-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #30343F;
+  font-size: 30px;
+}
+
+#tech-journey-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 50px;
+  color: #273469;
+  margin-bottom: 20px;
+}
+
+#tech-journey-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #30343F;
+  font-size: 30px;
+}
+
+.project-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  color: #FAFAFF;
+  margin-bottom: 30px;
+}
+
+.project-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #FAFAFF;
+  font-size: 20px;
+}
+
+.project-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #FAFAFF;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+/* STYLE IMAGES */
+
+#profile-img {
+  width: 580px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 5px solid #1E2749;
+}
+
+.project-img {
+  width: 1000px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #30343F;
+  overflow: hidden;
+  padding: 2em;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #273469;
+  border-radius: 40px;
+}
